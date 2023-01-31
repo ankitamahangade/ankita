@@ -1,0 +1,114 @@
+/* its css grid examples
+
+.container{
+    background-color:aqua;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+    grid-template-rows: 1fr 1fr 1fr; 
+     }
+
+.box{
+     font-size: 50px;
+      text-align: center;
+      
+
+}
+.red{
+    grid-column: 1/4;
+}
+
+
+
+.red{
+    
+    background-color: brown;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+    
+}
+.yellow{
+    background-color: yellow;
+}
+.white{
+    background-color: white;
+
+}
+.gray{
+    background-color: grey;
+}
+.black{
+    background-color: black;
+}
+.sciin{
+    background-color: sandybrown;
+}
+.brown{
+    background-color: blueviolet;
+}*/
+
+/* second project */
+/* navigation  */
+body{
+    margin:auto 0;
+}
+.header{
+    background-color: gainsboro;
+     
+}
+
+.nav-main{
+    display: flex;
+    font-size:1.5em ;
+    list-style: none;
+    margin: auto 0;
+
+}
+li{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.push{
+    margin-left: auto;
+}
+
+
+
+/* cover  */
+.contanier{
+    background-color:rgb(133, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+/* poject grid */
+
+.grid-wrapper{
+    background-color:skyblue; 
+    display: grid;
+     grid-gap:20px;
+    grid-template-columns:repeat(auto-fill, minmax(300px , 1fr));
+}
+    .box{
+    background-color: black;
+     padding: 130px; 
+    margin:20px;
+    
+    
+    
+}
+    
+    
+/* footer */
+.footer{
+    background-color:mediumaquamarine;
+    padding: 30px;
+}
